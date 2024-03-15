@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Look</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="image-logo">
+                <h3 class="brand-title">SimpleLook</h3>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="table.html">Table</a>
+                <a href="about.html">About</a>
+            </div>
+        </nav>
+
+    </header>
+    <br><br>
+    <div class="info-text">
+        <h2>Product List</h2>
+    </div> 
+    <!-- <button onclick="loadXMLDoc()">Display Product</button> -->
+    <br>
+    <!-- <p id="demo"></p> -->
+    <table border="1px" style="margin-left: 350px" id="demo">
+        
+        <!-- <tr style="background-color: black; color: white;">
+            <th>Name</th>
+            <th>Price</th>
+            <th>Color</th>
+            <th>Brand</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td id="demo"></td>
+            <td id="demo1"></td>
+            <td id="demo2"></td>
+            <td id="demo3"></td>
+            <td id="demo4"></td>
+        </tr> -->
+        <!-- 
+        <tr>
+            <td >CALVIN KLEIN CK5833K</td>
+            <td> 6,990.00</td>
+            <td> 001 BLACK, 211 TORTBROWN</td>
+            <td>CALVIN KLEIN</td>
+            <td>UNISEX</td>
+        </tr>
+        <tr>
+            <td>CALVIN KLEIN CK5936</td>
+            <td> 6,275.00</td>
+            <td>415 BLUE</td>
+            <td>CALVIN KLEIN</td>
+            <td>UNISEX</td>
+        </tr>
+        <tr>
+            <td>CALVIN KLEIN CK5947A</td>
+            <td> 6,130.00</td>
+            <td> 001 BLACK</td>
+            <td>CALVIN KLEIN</td>
+            <td>UNISEX</td>
+        </tr>
+        <tr>
+            <td>CALVIN KLEIN CK5976</td>
+            <td> 7,500.00</td>
+            <td> 214 TORTBROWN</td>
+            <td>CALVIN KLEIN</td>
+            <td>UNISEX</td>
+        </tr>
+        <tr>
+            <td>CALVIN KLEIN CK5976</td>
+            <td> 7,550.00</td>
+            <td> 604 RASIN</td>
+            <td>CALVIN KLEIN</td>
+            <td>UNISEX</td>
+        </tr>
+        <tr>
+            <td>CALVIN KLEIN CK5676</td>
+            <td> 6,995.00</td>
+            <td> 001 BLACK,</td>
+            <td>CALVIN KLEIN</td>
+            <td>UNISEX</td>
+        </tr>
+        <tr>
+            <td>GUCCI GG0006OA</td>
+            <td> 14,095.00</td>
+            <td> 003 - DMI-BLUE/RED</td>
+            <td>GUCCI</td>
+            <td>UNISEX</td>
+        </tr>
+        <tr>
+            <td>GUCCI GG0038O</td>
+            <td> 19,895.00</td>
+            <td> 008 - BROWN TORTOISE</td>
+            <td>GUCCI</td>
+            <td>WOMEN</td>
+        </tr>
+        <tr>
+            <td>GUCCI GG0162OA</td>
+            <td> 15,995.00</td>
+            <td> 001 BLACK</td>
+            <td>GUCCI</td>
+            <td>WOMEN</td>
+        </tr>
+        <tr>
+            <td>GUCCI GG061S</td>
+            <td> 23,295.00</td>
+            <td> 002 GOLD-BLUE/PINK</td>
+            <td>GUCCI</td>
+            <td>WOMEN</td>
+        </tr>
+    var x,a,b,c,d, i,j,k,l,m, xmlDoc, txt,txt1 = "",txt2 = "",txt3 = "",txt4 = "";
+                xmlDoc = xml.responseXML;
+                txt = "";
+                a = xmlDoc.getElementsByTagName("title");
+                x = xmlDoc.getElementsByTagName("price");
+                
+                b = xmlDoc.getElementsByTagName("color");
+                c = xmlDoc.getElementsByTagName("brand");
+                d = xmlDoc.getElementsByTagName("gender");
+                for(i = 0; i< a.length; i++){
+                    "<td>"
+                    txt += a[i].childNodes[0].nodeValue + "<br>";
+                    txt1 += x[i].childNodes[0].nodeValue + "<br>";
+                    txt2 += b[i].childNodes[0].nodeValue + "<br>";
+                    txt3 += c[i].childNodes[0].nodeValue + "<br>";
+                    txt4 += d[i].childNodes[0].nodeValue + "<br></td>";
+                }
+                
+                document.getElementById("demo").innerHTML = txt;
+                document.getElementById("demo1").innerHTML = txt1;
+                document.getElementById("demo2").innerHTML = txt2;
+                document.getElementById("demo3").innerHTML = txt3;
+                document.getElementById("demo4").innerHTML = txt4;
+                console.log(this);
+    
+    
+    
+    -->
+
+        <script>
+            window.onload = function(){
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function(){
+                    if(this.readyState == 4 && this.status == 200){
+                        myFunction(this);
+                    }
+                };
+                xmlhttp.open("GET", "optical.xml", true);
+                xmlhttp.send();
+            }
+            function myFunction(xml){
+                let xmlDoc = xml.responseXML;
+                let table = "<tr><th>Title</th><th>Price</th><th>Color</th><th>Brand</th><th>Gender</th></tr>";
+                let x = xmlDoc.getElementsByTagName("glass");
+                for(let i = 0; i < x.length; i++){
+                    table += "<tr><td>" +
+                    x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("color")[0].childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("brand")[0].childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("gender")[0].childNodes[0].nodeValue + "</td></tr>";
+                }
+                document.getElementById('demo').innerHTML = table;
+            }
+        </script>
+    </table>
+    
+</body>
+</html>

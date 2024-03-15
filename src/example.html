@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div>
+            <div>Ajax Functionality</div>
+            <div>
+                <button onclick="loadXMLDoc()">Change Content</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function loadXMLDoc(){
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "catalog.txt", true);
+            
+            xmlhttp.onload = function(){
+                document.getElementById('wrapper').innerHTML = this.responseText;
+                // console.log(this);
+            };
+            xmlhttp.send();
+        }
+
+    </script>
+</body>
+</html>

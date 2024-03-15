@@ -1,0 +1,124 @@
+<optical>
+    <glass brand="Calvin klein">
+        <title lang="en">CALVIN KLEIN CK5833K</title>
+        <price> 6,990.00</price>
+        <color> 001 BLACK, 211 TORTBROWN</color>
+        <brand>CALVIN KLEIN</brand>
+        <gender>UNISEX</gender>
+    </glass>
+    <glass brand="Calvin klein">
+        <title lang="en">CALVIN KLEIN CK5936</title>
+        <price> 6,275.00</price>
+        <color>415 BLUE</color>
+        <brand>CALVIN KLEIN</brand>
+        <gender>UNISEX</gender>
+    </glass>
+     <glass brand="Calvin klein">
+        <title lang="en">CALVIN KLEIN CK5947A</title>
+        <price> 6,130.00</price>
+        <color> 001 BLACK</color>
+        <brand>CALVIN KLEIN</brand>
+        <gender>UNISEX</gender>
+    </glass>
+     <glass brand="Calvin klein">
+        <title lang="en">CALVIN KLEIN CK5976</title>
+        <price> 7,500.00</price>
+        <color> 214 TORTBROWN</color>
+        <brand>CALVIN KLEIN</brand>
+        <gender>UNISEX</gender>
+    </glass>
+     <glass brand="Calvin klein">
+        <title lang="en">CALVIN KLEIN CK5976</title>
+        <price> 7,550.00</price>
+        <color> 604 RASIN</color>
+        <brand>CALVIN KLEIN</brand>
+        <gender>UNISEX</gender>
+    </glass>
+     <glass brand="Calvin klein">
+        <title lang="en">CALVIN KLEIN CK5676</title>
+        <price> 6,995.00</price>
+        <color> 001 BLACK,</color>
+        <brand>CALVIN KLEIN</brand>
+        <gender>UNISEX</gender>
+    </glass>
+
+    <glass brand="Gucci">
+        <title lang="en">GUCCI GG0006OA</title>
+        <price> 14,095.00</price>
+        <color> 003 - DMI-BLUE/RED</color>
+        <brand>GUCCI</brand>
+        <gender>UNISEX</gender>
+    </glass>
+     <glass brand="Gucci">
+     <title lang="en">GUCCI GG0038O</title>
+        <price> 19,895.00</price>
+        <color> 008 - BROWN TORTOISE</color>
+        <brand>GUCCI</brand>
+        <gender>WOMEN</gender>
+    </glass>
+     <glass brand="Gucci">
+    <title lang="en">GUCCI GG0162OA</title>
+        <price> 15,995.00</price>
+        <color> 001 BLACK</color>
+        <brand>GUCCI</brand>
+        <gender>WOMEN</gender>
+    </glass>
+     <glass brand="Gucci">
+    <title lang="en">GUCCI GG061S</title>
+        <price> 23,295.00</price>
+        <color> 002 GOLD-BLUE/PINK</color>
+        <brand>GUCCI</brand>
+        <gender>WOMEN</gender>
+    </glass>
+     <glass brand="Gucci">
+    <title lang="en">GUCCI GG0096SA</title>
+        <price> 23,895.00</price>
+        <color> 001 BLACK</color>
+        <brand>GUCCI</brand>
+        <gender>WOMEN</gender>
+    </glass>
+
+    <glass brand="Levis">
+     <title lang="en">LEVIS LS03015 Kids</title>
+        <price> 1,995.00</price>
+        <color> C02 RED</color>
+        <brand>LEVIS</brand>
+        <gender>KIDS</gender>
+    </glass>
+    <glass brand="Levis">
+     <title lang="en">LEVIS LS5010 Kids</title>
+        <price> 1,995.00</price>
+        <color> C01 SIL - SILVER</color>
+        <brand>LEVIS</brand>
+        <gender>KIDS</gender>
+    </glass>
+    <glass brand="Levis">
+     <title lang="en">LEVIS LS03021</title>
+        <price> 2,995.00</price>
+        <color> C08 MBLK-T MATTEBLACK</color>
+        <brand>LEVIS</brand>
+        <gender>UNISEX</gender>
+    </glass>
+    <glass brand="Levis">
+     <title lang="en">LEVIS LS04024</title>
+        <price> 2,995.00</price>
+        <color> c01 BLK- BLACK</color>
+        <brand>LEVIS</brand>
+        <gender>UNISEX</gender>
+    </glass>
+    <glass brand="Levis">
+     <title lang="en">LEVIS LS05147</title>
+        <price> 2,995.00</price>
+        <color> c01 GUN - GUNMETAL</color>
+        <brand>LEVIS</brand>
+        <gender>UNISEX</gender>
+    </glass>
+    <glass brand="Levis">
+     <title lang="en">LEVIS LS05207</title>
+        <price> 2,995.00</price>
+        <color> c01 BLKGUN - BLACK/GUNMETAL</color>
+        <brand>LEVIS</brand>
+        <gender>UNISEX</gender>
+    </glass>
+    
+</optical>
